@@ -1,0 +1,111 @@
+body {
+				background-image: linear-gradient(to right top, #d7890f, #e29816, #eca71e, #f6b626, #ffc52e);
+				background-size: contain;
+}
+
+*{
+				margin: 1%;
+				padding: 0;
+				border: 0;
+}
+
+span {
+				text-align: justify;
+}
+
+p {
+				text-align: center;
+				font-family: 'Bebas Neue', cursive;
+
+
+}
+
+#restaurant { 
+				width: 34%;
+}
+h1 {
+												color: #2e200f;
+				padding: 0%;
+				font-size: 795%;
+				text-align: center;
+				margin: 0%;
+				border-radius: 5%;
+				font-family: 'praise', cursiva;
+				}
+
+h3 {
+				text-align: center;
+}										 
+
+h4 {
+				text-align: center;
+}
+
+img {
+												width: 400px;
+												
+											}
+								
+#thirdDiv {
+												padding: 50px;
+												height: 600px;
+												width: 500px;
+												background-color: #ffb355;
+												border: 1px solid #000000;
+												display: flex;
+												
+											}
+							
+#spanId {
+											 
+											 font-size: 18px;
+											 margin: 50px;
+											 padding: 50px;
+											font-family: candara;
+											 
+											}
+
+
+
+.container box {
+				display: grid;
+				place-items: center;
+}
+
+.slider {
+				width: 100%;
+				mmargin: auto;
+				height: 900px;
+				overflow: hidden;
+}
+
+.slider ul {
+				padding: 0;
+				display: flex;
+				width: 200%;
+				animation: slider 10s infinite alternate;
+				animation-timing-function: linear;
+}
+
+.slider li {
+				width: 100%;
+				list-style: none;
+}
+
+.slider li img {
+				width: 100%;
+}
+
+@keyframes slider {
+				0% {margin-left: 0;}
+				
+				25% {margin-left: 0;}
+				
+				50% {margin-left: 0;}
+				
+				60% {margin-left: -100%;}
+				
+				100% {margin-left: -100%;}
+				
+				
+}

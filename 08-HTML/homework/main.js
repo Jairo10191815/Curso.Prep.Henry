@@ -1,0 +1,1 @@
+alert('Si estás desde un móvil, gira la pantalla de forma horizontal para una mejor experiencia')
